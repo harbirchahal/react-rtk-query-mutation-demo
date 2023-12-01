@@ -1,5 +1,7 @@
 import { AppBar, Toolbar, Typography } from '@mui/material';
 
+import UserMain from './user/UserMain';
+
 export default function App() {
   return (
     <>
@@ -10,6 +12,7 @@ export default function App() {
           </Typography>
         </Toolbar>
       </AppBar>
+      <UserMain />
     </>
   );
 }
