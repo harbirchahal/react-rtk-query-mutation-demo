@@ -6,7 +6,7 @@ import { User } from './userModel';
 const userApi = createApi({
   reducerPath: 'users',
   baseQuery: fetchBaseQuery({
-    baseUrl: 'http://localhost:3000/',
+    baseUrl: 'https://react-rtk-query-mutation-api.vercel.app/',
   }),
   tagTypes: ['Users'],
   endpoints: (builder) => ({
