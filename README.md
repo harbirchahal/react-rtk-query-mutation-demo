@@ -1,3 +1,3 @@
 # React RTK Query and Mutation Demo
 
-Example of API query and mutation with React toolkit
+### [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-rtk-query-mutation-demo)
