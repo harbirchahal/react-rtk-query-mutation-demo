@@ -2,11 +2,13 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 import { User } from './userModel';
 
+const BASE_URL = 'https://react-rtk-query-mutation-api-git-main-harbir-chahals-projects.vercel.app/'
+
 // Define a service using a base URL and expected endpoints
 const userApi = createApi({
   reducerPath: 'users',
   baseQuery: fetchBaseQuery({
-    baseUrl: 'https://react-rtk-query-mutation-api.vercel.app/',
+    baseUrl: BASE_URL,
   }),
   tagTypes: ['Users'],
   endpoints: (builder) => ({
